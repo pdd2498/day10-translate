@@ -24,3 +24,20 @@ button{
   padding: 5px 20px;
   
 }
+.imagediv{
+  width: 30vw;
+  height: 40vh;
+  overflow: hidden;
+}
+.imagebox{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.maindiv{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
